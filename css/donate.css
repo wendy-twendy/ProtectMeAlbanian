@@ -1,0 +1,83 @@
+/* Donate Section */
+.donate-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.donate-text h3 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.donate-text p {
+    margin-bottom: 1.5rem;
+}
+
+.donate-text h4 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.donate-text ul {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+}
+
+.donate-text ul li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.donate-text ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.donate-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.donate-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.donate-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.paypal-button {
+    margin: 1.5rem auto;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.donation-small {
+    font-size: 0.8rem;
+    color: var(--gray-color);
+}
+
+.bank-details {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.bank-details p {
+    margin-bottom: 0.5rem;
+}
